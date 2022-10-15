@@ -4,7 +4,7 @@ A zsh plugin for plenv based on the jenv plugin.
 
 ## Usage
 
-To use it, install [`plenv`](https://github.com/pyenv/pyenv) first.
+To use it, install [`plenv`](https://github.com/tokuhirom/plenv) first.
 
 Then clone this repository into the custom plugins directory as `plenv` of your
 zsh plugin manager which is `$ZSH_CUSTOM`, the following is for
