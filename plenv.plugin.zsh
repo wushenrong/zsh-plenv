@@ -17,7 +17,7 @@ fi
 
 if [[ $FOUND_PLENV -eq 1 ]]; then
     (( $+commands[plenv] )) || export PATH="${plenvdir}/bin:$PATH"
-    eval "$(plenv init - zsh)"
+    eval "$(plenv init -)"
 
     function plenv_prompt_info() {
       local version="$(plenv version-name 2>/dev/null)"
