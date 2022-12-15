@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: MIT
-plenvdirs=("$HOME/.plenv" "/usr/local/bin/plenv" "/usr/local/plenv" "/opt/plenv")
+plenvdirs=("$HOME/.plenv" "$XDG_DATA_HOME/plenv" "/usr/local/bin/plenv" "/usr/local/plenv" "/opt/plenv")
 
 FOUND_PLENV=0
 for plenvdir in $plenvdirs; do
